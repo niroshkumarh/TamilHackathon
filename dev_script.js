@@ -10,29 +10,31 @@ const create_element = (type,obj) => {
 
 const input_form = (i) => {
     return `<div class="col-sm-12">
-<center class="text-center">Team Member ${i + 2}</center>
+<center class="text-center">Team Member ${i + 3}</center>
+<div class = "div1">
 <div class="col-sm-12">
     <div class="form-group">
         <div class="form-row">
-            <input type="text" required placeholder="Name / பெயர் " name="name${i+1}" class="form-control"/>
+            <input type="text" required placeholder="Name / பெயர் " name="name${i+3}" class="form-control"/>
         </div>
     </div>
     <div class="form-group">
-        <select required name="profession${i+1}" class="form-control">
+        <select required name="profession${i+3}" class="form-control">
             <option value="">----- Profession -----</option>
             <option value="Student">Student</option>
             <option value="Working">Working</option>
         </select>
     </div>
     <div class="form-group">
-        <input required name="collegeworkstationname${i+1}" type="text" placeholder="College/Workstation Name" />
+        <input required name="collegeworkstationname${i+3}" type="text" placeholder="College/Workstation Name" />
     </div>
     <div class="form-group">
-        <input required name="email${i+1}" type="email" placeholder="Email/மின்னஞ்சல் முகவரி " />
+        <input required name="email${i+3}" type="email" placeholder="Email/மின்னஞ்சல் முகவரி " />
     </div>
     <div class="form-group">
-        <input required name="phone${i+1}" type="text" placeholder="Phone Number" />
+        <input required name="phone${i+3}" type="text" placeholder="Phone Number" />
     </div>
+</div>
 </div>
 </div>
 `}

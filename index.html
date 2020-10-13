@@ -10,7 +10,11 @@
     <link href="https://fonts.googleapis.com/css?family=Raleway:100,300,400,500,700,900" rel="stylesheet">
     <script src="swal.min.js"></script>
     <script src="dev_script.js" defer></script>
-
+    <style>
+        .div1 {
+            border: 1px solid blue;
+        }
+    </style>
     <title>Tamil - hackathon</title>
     <!--
 SOFTY PINKO
@@ -80,7 +84,8 @@ https://templatemo.com/tm-535-softy-pinko
                 <div class="row">
                     <div class="offset-xl-3 col-xl-6 offset-lg-2 col-lg-8 col-md-12 col-sm-12">
                         <h1>Lets provide the best <strong>strategy</strong><br>to document <strong>TAMIL</strong></h1>
-                        <p>தமிழ் மொழி, மரபு மருத்துவம் மற்றும் கலை மேம்பாட்டிற்கான நிரலரங்கு" (Hackathon for Tamil language, Medicine and art enhancement)</p>
+                        <p>தமிழ் மொழி, மரபு மருத்துவம் மற்றும் கலை மேம்பாட்டிற்கான நிரலரங்கு" (Hackathon for Tamil
+                            language, Medicine and art enhancement)</p>
                         <a href="#features" class="main-button-slider">Discover More</a>
                     </div>
                 </div>
@@ -307,22 +312,50 @@ https://templatemo.com/tm-535-softy-pinko
 
                         <div class="form-group">
                             <select class="form-control" name="theme" id="theme">
-                                <option value="0">---------- Choose your intrested Theme ---------- </option>
+                                <option value="0">---------- Choose your theme of interest ---------- </option>
                                 <option value="Tamil language and literature">தமிழ் மொழி மற்றும் இலக்கியம்(Tamil
                                     language & literature)</option>
-                                <option value="Tamil music">தமிழ் இசை (Tamil music)</option>
+                                <option value="Tamil medicine"> தமிழ் மருத்துவம்(Tamil medicine)</option>
                                 <option value="Arts">கலைகள் (Arts)</option>
                             </select>
                         </div>
 
-
-
+                        <center class="text-center">Team Member 2</center>
+                        <div class="div1">
+                            <div class="col-sm-12">
+                                <div class="form-group">
+                                    <div class="form-row">
+                                        <input type="text" required placeholder="Team Member 2 - Name / பெயர் "
+                                            name="name2" class="form-control" />
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <select required name="profession2" class="form-control">
+                                        <option value="">----- Profession -----</option>
+                                        <option value="Student">Student</option>
+                                        <option value="Working">Working</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <input required name="collegeworkstationname2" type="text"
+                                        placeholder="Team Member 2 - College/Workstation Name" />
+                                </div>
+                                <div class="form-group">
+                                    <input required name="email2" type="email"
+                                        placeholder="Team Member 2 - Email/மின்னஞ்சல் முகவரி " />
+                                </div>
+                                <div class="form-group">
+                                    <input required name="phone2" type="text"
+                                        placeholder="Team Member 2 - Phone Number" />
+                                </div>
+                            </div>
+                        </div>
+                        <br>
                         <div class="form-group">
                             <select onchange="handle_team_change(event)" class="form-control" name="team" id="team">
-                                <option value="1">Only Myself</option>
-                                <option value="2">2 </option>
-                                <option value="3">3 </option>
-                                <option value="4">4 </option>
+                                <option value="1">Both only</option>
+                                <option value="2">3 </option>
+                                <option value="3">4 </option>
                             </select>
                         </div>
                         <br><br>
@@ -355,33 +388,33 @@ https://templatemo.com/tm-535-softy-pinko
                 <Center><strong>IMPORTANT DATES</strong></Center><br>
                 <table class="table" style="background-color:white; border-radius: 20px;">
                     <thead>
-                      <tr>
-                        <th scope="col">Date</th>
-                        <th scope="col">#</th>
-                      </tr>
+                        <tr>
+                            <th scope="col">Date</th>
+                            <th scope="col">#</th>
+                        </tr>
                     </thead>
                     <tbody>
-                      <tr>
-                        <td>21/10/2020</td>
-                        <td>Registration closes</td>
-                      </tr>
-                      <tr>
-                        <td>21/10/2020</td>
-                        <td>Problem introduction session by domain experts</td>
-                      </tr>
-                      <tr>
-                        <td>21/10/2020 - 28/10/2020</td>
-                        <td>Idea submission round</td>
-                      </tr>
-                      <tr>
-                        <td>29/10/2020 - 01/11/2020</td>
-                        <td>Final Hackathon</td>
-                      </tr>
+                        <tr>
+                            <td>21/10/2020</td>
+                            <td>Registration closes</td>
+                        </tr>
+                        <tr>
+                            <td>21/10/2020</td>
+                            <td>Problem introduction session by domain experts</td>
+                        </tr>
+                        <tr>
+                            <td>21/10/2020 - 28/10/2020</td>
+                            <td>Idea submission round</td>
+                        </tr>
+                        <tr>
+                            <td>29/10/2020 - 01/11/2020</td>
+                            <td>Final Hackathon</td>
+                        </tr>
                     </tbody>
-                  </table>
-            <br>
-                </div>
+                </table>
+                <br>
             </div>
+        </div>
         </div>
     </section>
 
